@@ -1,21 +1,20 @@
-CoopeTica R.L. — Tarea 1
+# CoopeTica R.L. — Tarea 1
 
- Integrantes
-- Eduardo Planelles — Usuario de GitHub: [usuario de Eduardo]
-- Gabriel Rojas — Usuario de GitHub: [tu usuario]
+BIS04 Programación II · Universidad Latina de Costa Rica
 
- Descripción del proyecto
+## Integrantes
 
-CoopeTica R.L. es una cooperativa de ahorro y crédito que necesita organizar la información de sus asociados, sus cuentas y los movimientos realizados. El sistema debe permitir consultar información de los asociados, revisar sus cuentas, registrar depósitos y retiros, calcular intereses y consultar los movimientos realizados durante un período.
+| Integrante | Usuario de GitHub |
+| --- | --- |
+| Eduardo Planelles Ramírez | [@eduardo-planelles](https://github.com/eduardo-planelles) |
+| Gabriel Josué Rojas Marín | [@gabomrojas](https://github.com/gabomrojas) |
 
- Diagrama de clases
+## Descripción del proyecto
 
-Pendiente de agregar.
+El proyecto modela un sistema para organizar la información de los asociados de CoopeTica R.L., sus cuentas y los movimientos realizados. El sistema contempla consultas sobre asociados y cuentas, registro de depósitos y retiros, cálculo de intereses y reportes de movimientos por periodo.
 
- Justificación del modelo
+## Entrega
 
-Pendiente de completar por los integrantes.
+La documentación completa del dominio, el diagrama de clases, los flujos de apoyo, la justificación del modelo y la bitácora de uso de IA están en [Tareas/Tarea1/README.md](Tareas/Tarea1/README.md).
 
- Bitácora de uso de IA
-
-Pendiente de completar por los integrantes.
+El [diagrama de clases](<Tareas/Tarea1/diagramas/5. Sistema - Clases sin relaciones (5A + 5B).png>) y los demás archivos de la entrega están en `Tareas/Tarea1/`.
