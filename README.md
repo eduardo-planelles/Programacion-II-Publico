@@ -1,38 +1,20 @@
-# <!-- Título del proyecto -->
+# CoopeTica R.L. — Tarea 1
 
-BIS04 Programación II · Tarea 1 · Universidad Latina de Costa Rica
+BIS04 Programación II · Universidad Latina de Costa Rica
 
 ## Integrantes
 
 | Integrante | Usuario de GitHub |
-|---|---|
-| Eduardo Planelles Ramirez | [@eduardo-planelles](https://github.com/eduardo-planelles) |
-| Gabriel Josue Rojas Marin | [@gabomrojas](https://github.com/gabomrojas) |
+| --- | --- |
+| Eduardo Planelles Ramírez | [@eduardo-planelles](https://github.com/eduardo-planelles) |
+| Gabriel Josué Rojas Marín | [@gabomrojas](https://github.com/gabomrojas) |
 
-## Descripción del dominio
+## Descripción del proyecto
 
-<!-- En sus propias palabras: qué es CoopeTica R.L. y qué debe ordenar el sistema. -->
+El proyecto modela un sistema para organizar la información de los asociados de CoopeTica R.L., sus cuentas y los movimientos realizados. El sistema contempla consultas sobre asociados y cuentas, registro de depósitos y retiros, cálculo de intereses y reportes de movimientos por periodo.
 
-## Diagrama de clases
+## Entrega
 
-<!-- Fuente en PlantUML: diagramas/diagrama-clases.puml. Ajustar el nombre de la imagen exportada (PNG o PDF). -->
-![Diagrama de clases](diagramas/diagrama-clases.png)
+La documentación completa del dominio, el diagrama de clases, los flujos de apoyo, la justificación del modelo y la bitácora de uso de IA están en [Tareas/Tarea1/README.md](Tareas/Tarea1/README.md).
 
-## Justificación del modelo
-
-### Clases escogidas
-
-<!-- Por qué estas clases y no otras. -->
-
-### Elementos del enunciado descartados
-
-<!-- Qué se descartó deliberadamente y por qué. -->
-
-### Excepciones de visibilidad
-
-<!-- Solo si algún atributo no es privado o algún método no es público. Si no hay, indicarlo. -->
-
-## Bitácora de uso de IA
-
-<!-- Cada entrada: qué se preguntó, a qué herramienta y qué se hizo con la respuesta.
-     Si no se usó ninguna, escribirlo explícitamente. -->
+El [diagrama de clases](<Tareas/Tarea1/diagramas/5. Sistema - Clases sin relaciones (5A + 5B).png>) y los demás archivos de la entrega están en `Tareas/Tarea1/`.
