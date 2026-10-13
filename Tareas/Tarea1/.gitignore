@@ -1,0 +1,5 @@
+# Keep only the images embedded in README.md.
+/diagramas/*
+!/diagramas/1. Proceso - Flujo de un retiro (validaciones).png
+!/diagramas/2. Proceso - Liquidación de intereses (carriles).png
+!/diagramas/5. Sistema - Clases sin relaciones (5A + 5B).png
