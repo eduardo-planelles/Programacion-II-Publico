@@ -1,0 +1,28 @@
+# =========================
+# Apache NetBeans + Java Ant
+# =========================
+
+# Configuración privada/local de NetBeans
+nbproject/private/
+
+# Archivos generados por Ant
+build/
+dist/
+
+# Archivos compilados
+*.class
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Configuración de usuario de NetBeans
+.nb-gradle/
+
+# IDEs / editores
+.idea/
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
