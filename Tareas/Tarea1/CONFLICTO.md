@@ -15,7 +15,6 @@ CONFLICT (add/add): Merge conflict in Tareas/Tarea1/README.md
 Automatic merge failed; fix conflicts and then commit.
 ```
 
-No se guardó una copia del archivo con los marcadores `<<<<<<<`, `=======` y `>>>>>>>`; por eso se incluye el mensaje real registrado en lugar de reconstruir esos marcadores.
  ## 3. ¿Cómo decidimos qué versión conservar, o cómo combinamos ambas?
 
 En este caso, decidimos mantener en main el README inicial como referencia y dejar en la rama Avance-Eduardo la versión completa como una actualización independiente.
