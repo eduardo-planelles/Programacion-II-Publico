@@ -10,9 +10,22 @@ Este tipo de situación puede ocurrir cuando varios integrantes trabajan en para
 ## 2. ¿Qué mostraba Git exactamente?
 
 ```text
-Auto-merging Tareas/Tarea1/README.md
-CONFLICT (add/add): Merge conflict in Tareas/Tarea1/README.md
-Automatic merge failed; fix conflicts and then commit.
+La rama no estaba en el clon principal
+Situación: se pensó integrar la rama en el repositorio privado Programacion-II.
+Causa: la rama vive en el repositorio público Programacion-II-Publico, que es el de la Tarea 1. La carpeta local Programacion-II-Publico no tiene .git.
+Solución: se trabajó directamente sobre el repositorio público y su solicitud #1.
+```
+```text
+Descargas por SSH que se quedan detenidas
+Síntoma: git fetch y git checkout por SSH se quedaron detenidos en unos 440 KB (warning: garbage found: .git/objects/pack/tmp_pack_...). Las transferencias pequeñas (lista de ramas, commits, push) sí funcionan.
+Solución: lectura por HTTPS (repositorio público, sin credenciales) y escritura por SSH: git remote set-url origin https://github.com/eduardo-planelles/Programacion-II-Publico.git git remote set-url --push origin git@github.com:eduardo-planelles/Programacion-II-Publico.git
+Pendiente: revisar la red o el SSH de este equipo si vuelve a pasar.
+```
+```text
+Bloqueo index.lock tras detener el checkout
+Mensaje: fatal: Unable to create '.../Programacion-II-Gabriel/.git/index.lock': File exists.
+Causa: el checkout detenido en E6 dejó el archivo de bloqueo.
+Solución: como era un clon recién creado, sin archivos del usuario, se borró index.lock y se repitió git checkout -f main, esta vez por HTTPS.
 ```
 
  ## 3. ¿Cómo decidimos qué versión conservar, o cómo combinamos ambas?
