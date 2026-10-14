@@ -114,7 +114,7 @@ El enunciado pide atributos privados y métodos públicos, salvo justificación.
 - **Teoría y terminología.** Eduardo consultó a **Claude Code** (Anthropic) el criterio para decidir si un sustantivo del enunciado es clase, atributo enumerado, y el significado de la visibilidad protegida. Aplicamos el criterio de "datos propios y comportamiento" para dejar `TipoMovimiento`, `EstadoCuenta` y `TipoProducto` como enumerados.
 - **Líneas de diseño.** Eduardo discutió con **Claude Code** si los tres productos debían ser un atributo "tipo" o tres clases. Escogimos tres clases porque cada producto calcula intereses y comisiones distinto y el certificado tiene reglas propias.
 - **Revisión de flujos.** Eduardo pidió a **Claude Code** revisar el flujo de un retiro y la liquidación de intereses contra el enunciado, para comprobar que el modelo tiene los métodos que esos procesos necesitan (por ejemplo, `consultarSaldoAlCierre` para el interés sobre el saldo diario).
-- **Requisitos.** Eduardo consultó a **Gemini Notebook (NotebookLM)**, cargado con el enunciado, para verificar los requisitos y la rúbrica. Usamos las respuestas para revisar el alcance.
+- **Requisitos.** Eduardo consultó **NotebookLM** con el enunciado de la tarea como fuente para contrastar los requisitos y la rúbrica. Usamos sus respuestas como apoyo para revisar el alcance del modelo.
 - **Borradores.** Claude Code también generó un borrador del modelo de clases, de las instrucciones para dibujar los diagramas y de este README. Lo usamos como punto de partida: revisamos cada clase, atributo y método contra el enunciado.
   [Completar: qué partes cambiaron o rehicieron ustedes mismos.]
 - **Diagramas.** Se dibujaron en **Miro**. de Miro".]
